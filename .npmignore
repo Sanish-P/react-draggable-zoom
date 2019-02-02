@@ -1,0 +1,6 @@
+.gitignore
+
+# wepack
+webpack/
+webpack.config.js
+public/
