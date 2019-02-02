@@ -27,6 +27,19 @@ module.exports = function generateWebpackModules() {
             }
           }
         ]
+      }, 
+      {
+        test: /public\/assets\/images.*\.jpg$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+              publicPath: '/public/assets/images/',
+              output: 'public/assets/images/'
+            }
+          }
+        ]
       }
     ]
   }
