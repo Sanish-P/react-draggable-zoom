@@ -6,9 +6,7 @@ webpack.config.js
 
 # development
 public/
-src/Demo.tsx
-src/index.tsx
-src/@types
+src/
 index.html
 
 # typescript
