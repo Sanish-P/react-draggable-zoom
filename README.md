@@ -2,6 +2,9 @@
 
 Easy to intergrate image zoom with draggability for your react projects.
 
+# Demo
+https://sanish-p.github.io/react-draggable-zoom/
+
 # Installation
 The package can be installed via yarn:
 
