@@ -36,7 +36,7 @@ module.exports = function generateWebpackModules() {
             options: {
               name: '[name].[ext]',
               publicPath: '/public/assets/images/',
-              output: 'public/assets/images/'
+              outputPath: 'public/assets/images/'
             }
           }
         ]
