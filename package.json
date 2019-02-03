@@ -1,12 +1,12 @@
 {
   "name": "react-draggable-zoom",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "author": "Sanish Pradhananga",
   "license": "MIT",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/Sanish-P/react-draggable-zoom.git"
+    "type": "git",
+    "url": "https://github.com/Sanish-P/react-draggable-zoom.git"
   },
   "scripts": {
     "start": "webpack-dev-server --watch --open",
