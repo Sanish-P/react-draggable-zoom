@@ -11,7 +11,7 @@ The package can be installed via yarn:
 
 ```javascript
 import * as React from 'react';
-import DraggableZoom from './lib/DraggableZoom';
+import DraggableZoom from 'react-draggable-zoom';
 import * as sampleImage from "public/assets/images/sample.jpg";
 
 const Demo: React.SFC<{}> = () => {
