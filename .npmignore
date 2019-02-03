@@ -3,4 +3,17 @@
 # wepack
 webpack/
 webpack.config.js
+
+# development
 public/
+src/Demo.tsx
+src/index.tsx
+src/@types
+index.html
+
+# typescript
+tsconfig.json
+tslint.json
+
+# yarn
+yarn-error.log
