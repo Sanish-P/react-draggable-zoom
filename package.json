@@ -1,12 +1,13 @@
 {
   "name": "react-draggable-zoom",
   "version": "1.0.0",
-  "main": "dist/react-draggable-zoom.js",
+  "main": "index.js",
   "author": "Sanish Pradhananga",
   "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server --watch --open",
-    "build": "webpack"
+    "build": "webpack",
+    "prepublishOnly": "rm -rf dist/ && yarn build"
   },
   "peerDependencies": {
     "react": "^16.7.0",
