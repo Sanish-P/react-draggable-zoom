@@ -7,7 +7,7 @@
   "scripts": {
     "start": "webpack-dev-server --watch --open",
     "build": "webpack",
-    "prepublishOnly": "rm -rf dist/ && yarn build"
+    "prepublishOnly": "rm -rf dist/ && yarn build --env.environment=production"
   },
   "peerDependencies": {
     "react": "^16.7.0",
